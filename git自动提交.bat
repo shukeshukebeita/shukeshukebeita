@@ -4,7 +4,7 @@
 :: set /p commit_msg=Please input commit message:
 
 :: 这条命令使用当前时间来作为 commit 的信息
-set  commit_msg= %date:~0,10%   %time% AutoCommit.bat by Darian
+set  commit_msg= %date:~0,10%   %time% AutoCommit.bat by xiaojuanjuan
 
 git status 
 git add * 
